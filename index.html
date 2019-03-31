@@ -28,16 +28,19 @@ body{font-family: Roboto;}blockquote{border-color: #4285f4;}.display-1{font-fami
 <body>
 
 <!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-76173219-1', 'auto');
-  ga('send', 'pageview');
-
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<amp-analytics type="gtag" data-credentials="include">
+<script type="application/json">
+{
+  "vars" : {
+    "gtag_id": "UA-76173219-1",
+    "config" : {
+      "UA-76173219-1": { "groups": "default" }
+    }
+  }
+}
 </script>
+</amp-analytics>
 <!-- /Google Analytics -->
 
 
