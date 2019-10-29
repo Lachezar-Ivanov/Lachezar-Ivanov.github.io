@@ -1125,3 +1125,12 @@ section.lazy-placeholder:after {
 .cid-rGhMaMxh16 .dropdown-item:hover {
   color: #767676 !important;
 }
+.cid-rGjiBXBXBP {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rGjiBXBXBP .media-container-row .mbr-text {
+  color: #000000;
+  text-align: center;
+}
