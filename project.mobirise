@@ -30,7 +30,8 @@
       "additionalSetColors": [
         "#000000",
         "#d32d1a",
-        "#2e2e2e"
+        "#2e2e2e",
+        "#020202"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -83,7 +84,7 @@
               "color": "#000000"
             },
             ".mbr-text": {
-              "color": "#000000"
+              "color": "#020202"
             }
           },
           "_name": "content5",
