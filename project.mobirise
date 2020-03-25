@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Lachezar NEW",
-    "currentPage": "researcher.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -59,7 +59,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Lachezar Ivanov: Marketer and Evolutionary Psychologist",
+        "title": "Lachezar Ivanov: Evolutionary Behavioral Scientist",
         "meta_descr": "My name is Lachezar Ivanov & I use evolutionary psychology to improve marketing and advertising.",
         "header_custom": "",
         "footer_custom": "",
