@@ -95,7 +95,7 @@ body {
   background-color: #d32d1a !important;
 }
 .bg-success {
-  background-color: #f7ed4a !important;
+  background-color: #149dcc !important;
 }
 .bg-info {
   background-color: #82786e !important;
@@ -168,23 +168,23 @@ body {
 }
 .btn-success,
 .btn-success:active {
-  background-color: #f7ed4a !important;
-  border-color: #f7ed4a !important;
-  color: #3f3c03 !important;
+  background-color: #149dcc !important;
+  border-color: #149dcc !important;
+  color: #ffffff !important;
 }
 .btn-success:hover,
 .btn-success:focus,
 .btn-success.focus,
 .btn-success.active {
-  color: #3f3c03 !important;
-  background-color: #eadd0a !important;
-  border-color: #eadd0a !important;
+  color: #ffffff !important;
+  background-color: #0d6786 !important;
+  border-color: #0d6786 !important;
 }
 .btn-success.disabled,
 .btn-success:disabled {
-  color: #3f3c03 !important;
-  background-color: #eadd0a !important;
-  border-color: #eadd0a !important;
+  color: #ffffff !important;
+  background-color: #0d6786 !important;
+  border-color: #0d6786 !important;
 }
 .btn-warning,
 .btn-warning:active {
@@ -332,22 +332,22 @@ body {
 .btn-success-outline,
 .btn-success-outline:active {
   background: none;
-  border-color: #d2c609;
-  color: #d2c609;
+  border-color: #0b566f;
+  color: #0b566f;
 }
 .btn-success-outline:hover,
 .btn-success-outline:focus,
 .btn-success-outline.focus,
 .btn-success-outline.active {
-  color: #3f3c03;
-  background-color: #f7ed4a;
-  border-color: #f7ed4a;
+  color: #ffffff;
+  background-color: #149dcc;
+  border-color: #149dcc;
 }
 .btn-success-outline.disabled,
 .btn-success-outline:disabled {
-  color: #3f3c03 !important;
-  background-color: #f7ed4a !important;
-  border-color: #f7ed4a !important;
+  color: #ffffff !important;
+  background-color: #149dcc !important;
+  border-color: #149dcc !important;
 }
 .btn-warning-outline,
 .btn-warning-outline:active {
@@ -430,7 +430,7 @@ body {
   color: #d32d1a !important;
 }
 .text-success {
-  color: #f7ed4a !important;
+  color: #149dcc !important;
 }
 .text-info {
   color: #82786e !important;
@@ -457,7 +457,7 @@ a.text-secondary:focus {
 }
 a.text-success:hover,
 a.text-success:focus {
-  color: #d2c609 !important;
+  color: #0b566f !important;
 }
 a.text-info:hover,
 a.text-info:focus {
@@ -527,7 +527,7 @@ a:hover {
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
-  color: #ffffff;
+  color: #b4e6f8;
 }
 .mbr-plan-header.bg-info .mbr-plan-subtitle,
 .mbr-plan-header.bg-info .mbr-plan-price-desc {
@@ -709,22 +709,36 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rGhTbjAIJr {
-  padding-top: 75px;
-  padding-bottom: 30px;
+.cid-rUDe3nTtjR {
   background-color: #ffffff;
 }
-.cid-rGhTbjAIJr H2 {
-  color: #000000;
+@media (min-width: 992px) {
+  .cid-rUDe3nTtjR .mbr-figure {
+    padding-right: 4rem;
+  }
 }
-.cid-rGhTbjAIJr .mbr-section-subtitle {
-  color: #000000;
+@media (max-width: 991px) {
+  .cid-rUDe3nTtjR .mbr-figure {
+    padding-bottom: 3rem;
+  }
 }
-.cid-rGhTbjAIJr .mbr-text {
-  color: #000000;
+@media (max-width: 767px) {
+  .cid-rUDe3nTtjR .mbr-text {
+    text-align: center;
+  }
 }
-.cid-rGj3CSIYYR {
-  background-image: url("../../../assets/images/lachezar-ivanov-marketing-2000x1125.jpeg");
+.cid-rUDe3nTtjR .mbr-text,
+.cid-rUDe3nTtjR .mbr-section-btn {
+  color: #000000;
+  text-align: left;
+}
+.cid-rUDe3nTtjR H1 {
+  color: #000000;
+  text-align: left;
+}
+.cid-rUDe3nTtjR H3 {
+  color: #020202;
+  text-align: left;
 }
 .cid-rGhMaMxh16 .navbar {
   background: #ffffff;
