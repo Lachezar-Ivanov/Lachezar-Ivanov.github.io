@@ -1,4 +1,4 @@
-!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.10.15';document.body.insertBefore(a,document.body.childNodes[0])}}();
+!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.12.3';document.body.insertBefore(a,document.body.childNodes[0])}}();
 (function($) {
         var isBuilder = $('html').hasClass('is-builder');
 
@@ -11,6 +11,16 @@
 
         $.fn.outerFind = function(selector) {
             return this.find(selector).addBack(selector);
+        };
+
+        $.fn.scrollEnd = function(callback, timeout) {
+            $(this).scroll(function(){
+                var $this = $(this);
+                if ($this.data('scrollTimeout')) {
+                    clearTimeout($this.data('scrollTimeout'));
+                }
+                $this.data('scrollTimeout', setTimeout(callback,timeout));
+            });
         };
 
         $.fn.footerReveal = function() {
@@ -339,9 +349,9 @@
                     $('> *:eq(0)', this).before($img);
 
                     // youtube or vimeo
-                    if (parsedUrl && (/youtube/g.test(parsedUrl[3]) || /vimeo/g.test(parsedUrl[3]))) {
+                    if (parsedUrl && (/youtu\.?be/g.test(parsedUrl[3]) || /vimeo/g.test(parsedUrl[3]))) {
                         // youtube
-                        if (parsedUrl && /youtube/g.test(parsedUrl[3])) {
+                        if (parsedUrl && /youtu\.?be/g.test(parsedUrl[3])) {
                             var previewURL = 'http' + ('https:' === location.protocol ? 's' : '') + ':';
                             previewURL += '//img.youtube.com/vi/' + parsedUrl[6] + '/maxresdefault.jpg';
 
@@ -561,7 +571,7 @@
                     $('input[name=animation]').remove();
 
                     var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info').not(function() {
-                        return $(this).parents().is('.navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, #scrollToTop');
+                    	return $(this).parents().is('a, p, .navbar, .mbr-arrow, footer, .iconbox, .mbr-slider, .mbr-gallery, .mbr-testimonial .card-block, #cookiesdirective, .mbr-wowslider, .accordion, .tab-content, .engine, #scrollToTop');
                     }).addClass('hidden animated');
 
                     function getElementOffset(element) {
