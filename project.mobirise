@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Lachezar NEW",
-    "currentPage": "index.html",
+    "currentPage": "researcher.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -66,7 +66,8 @@
         "meta_descr": "My name is Lachezar Ivanov and I use evolutionary psychology to improve marketing and advertising.",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/lachezar-ivanov-marketing-2000x1125.jpeg"
       },
       "components": [
         {
@@ -640,7 +641,8 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 1,
+        "meta_image": "@PROJECT_PATH@/assets/images/lachezar-ivanov-marketing-2000x1125.jpeg"
       },
       "components": [
         {
