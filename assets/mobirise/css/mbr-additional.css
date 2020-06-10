@@ -715,12 +715,23 @@ section.lazy-placeholder:after {
 }
 .cid-rXWxy8ePZS {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-rXWxy8ePZS .mbr-section-subtitle {
   color: #000000;
   text-align: left;
+}
+.cid-s1xCVN1K6v {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-s1xCVN1K6v .mbr-section-subtitle {
+  color: #000000;
+}
+.cid-s1xCVN1K6v H2 {
+  color: #000000;
 }
 .cid-rXWvTKfAKK {
   padding-top: 60px;
